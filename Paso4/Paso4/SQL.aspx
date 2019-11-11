@@ -4,6 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 20px;
+        }
+    </style>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
@@ -45,7 +50,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Nombre de la aplicación</a>
+                    <a class="navbar-brand" runat="server" href="~/">Visual Basic Avanzado</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -64,7 +69,6 @@
 
 
 
-    </form>
     <table style="width: 100%; height: 222px;">
         <tr>
             <td>&nbsp;</td>
@@ -76,7 +80,27 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/CoB4lY82O_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </td>
             <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>
+                <table style="width:100%;">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1"></td>
+                        <td class="auto-style1">
+                            <asp:Button ID="btnEvaluacion" runat="server" BackColor="#660033" BorderColor="#993333" BorderStyle="Dotted" BorderWidth="4px" ForeColor="White" Text="IR A LA EVALUACION" Width="263px" />
+                        </td>
+                        <td class="auto-style1"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -86,5 +110,10 @@
             </td>
         </tr>
     </table>
-</body>
+
+
+
+
+    </form>
+    </body>
 </html>
